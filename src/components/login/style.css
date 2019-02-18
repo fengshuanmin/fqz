@@ -1,0 +1,86 @@
+.wrap{
+	width:100%;
+	height: 100%;
+  background: #6393f6;
+	display: flex;
+	justify-content: center;
+}
+.center{
+  width: 600px;
+  height: 300px;
+  padding: 10px;
+  border-radius: 4px;
+  background: #FFF;
+}
+.logintit{
+  text-align: center;
+}
+.logintit img{
+  width: 326px;
+  margin: 20px;
+}
+.left{
+	width: 50%;
+	height: 300px;
+	float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.left1{
+  width: 50%;
+  height: 100%;
+  background:url("/fqz/static/img/login.png") no-repeat;
+  background-size: contain;
+}
+/*.left1{
+  width: 50%;
+  height: 100%;
+  background:url("/static/img/login.png") no-repeat;
+  background-size: contain;
+}*/
+.title{
+	text-align:center;
+	color:#4F84EE;
+	margin: 0;
+	height: 80px;
+}
+.title h4{
+  margin: 0;
+  line-height: 80px;
+  font-size: 20px;
+}
+.body{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footer{
+	height: 70px;
+	text-align: center;
+}
+.footer button{
+  width: 80%;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  padding: 10px;
+  background: #4F84EE;
+  color:#fff;
+}
+.body .el-input{
+	width: 80%!important;
+	/*height:30px!important;*/
+  margin-bottom: 20px;
+}
+.el-input__inner{
+	height: 35px;
+}
+.demo-input-suffix{
+	padding: 10px !important;
+}
+/*.el-row{
+	text-align: center;
+}*/

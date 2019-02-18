@@ -1,0 +1,248 @@
+.wrap1{
+	background:#E1E3E9;
+}
+.listheader{
+  width:100%;
+  height:76px;
+  border-bottom: 1px solid #E1E1E1;
+  box-shadow: 0 2px 2px #E1E1E1;
+}
+tbody tr{
+  color:#606266!important;
+}
+.listhep{
+  width:910px;
+  margin:auto;
+  height:76px;
+  line-height: 76px;
+  /*display: flex;*/
+  /*padding: 15px;*/
+}
+.listhep .el-input__inner{
+  height: 30px;
+  width: 280px;
+}
+.listhep .el-input-group__append{
+  background: #5398FC;
+  color: #fff;
+  border: 1px solid #5398FC;
+}
+.listtitle{
+	width: 910px;
+	padding: 10px;
+  margin:auto;
+  background:#fff;
+  margin-bottom: 10px;
+}
+.el-select{
+	margin-left:10px!important;
+}
+.label1{
+   margin-left: 10px;
+   color: #c0c0c0;
+ }
+.label2{
+  margin-left: 10px;
+  color: #606266;
+}
+.label3{
+  margin-left: 30px;
+  color: #606266;
+}
+.fxpgxz .el-select{
+  width: 110px;
+}
+.el-input{
+  width:auto!important;
+  min-width: 25%!important;
+}
+.fz{
+  border:1px solid #dcdfe6;
+  padding:9px 16px 9px 0;
+  border-radius: 5px;
+  position: relative;
+}
+.fz .el-input{
+  min-width:18%!important;
+  width:18%!important;
+}
+.fz .el-input .el-input__inner{
+ border:none;
+  outline: none;
+  height:30px;
+}
+.el-radio+.el-radio{
+	margin-left: 0 !important;
+}
+.listtitle>div>div{
+	padding: 8px 0;
+}
+.sp{
+	display: inline-block;
+	width: 80px;
+}
+.listbody1{
+  width:100%;
+  /*background: #E1E3E9;*/
+  margin-top:20px;
+}
+.gsjg .el-select{
+  width:25%!important;
+}
+.xzdq .el-select{
+  width:13%!important;
+}
+.listbody{
+	width:910px;
+  margin:auto;
+  background: #fff;
+  padding-bottom: 20px;
+}
+.el-table__empty-block{
+  height: auto!important;
+}
+.tablediv{
+  padding:0 20px 20px;
+}
+.cell{
+	font-size: 14px !important;
+	text-align: center;
+}
+.block{
+	text-align:center;
+}
+.cxan{
+  display: inline-block;
+  margin-left: 24px;
+}
+.cxan .el-button{
+  padding:10px 20px!important;
+}
+.el-table th{
+  background: #F1F2F5!important;
+}
+.dialog .el-dialog__body>span{
+  display: block;
+  margin-bottom: 15px;
+}
+.dialog .el-input{
+  width:60%!important;
+}
+.dialog .el-input-group{
+  width:100%!important;
+}
+.dialog .el-textarea{
+  width:60%!important;
+  margin-left: 15px;
+}
+.block .el-select .el-input__inner{
+	width: 100px!important;
+}
+.Identificationwrap{
+  margin:auto;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -15%);
+}
+li{
+  list-style: none;
+}
+.flagul{
+  padding:0;
+  text-align:center;
+  /*width: 120px;*/
+  /*height: 300px;*/
+  overflow:auto;
+  position: absolute;
+  right: 0;
+  z-index:2;
+  background: #fff;
+  border: 1px solid #ebeef5;
+  border-radius: 4px;
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+}
+.flagli{
+  padding: 10px;
+  width:auto;
+}
+.flagli:hover{
+  background: #ECF5FF;
+  color:#66C0FF;
+  cursor: pointer;
+}
+.Identificationwrap .listbody1{
+  width:100%;
+  background: #fff;
+  /*margin-top:10px;*/
+  padding: 20px;
+}
+.Identificationwrap .el-dropdown{
+  width: 120px;
+}
+.Identificationwrap .listbody{
+  width:910px;
+  margin:auto;
+  background: #fff;
+  position: relative;
+  /*padding-bottom: 20px;*/
+}
+.Identificationwrap .tablediv{
+  margin-top:20px;
+}
+.Identificationwrap .cell{
+  font-size: 14px !important;
+  text-align: center;
+}
+.Identificationwrap .block{
+  text-align:center;
+}
+.Identificationwrap .el-table th{
+  background: #F1F2F5!important;
+}
+.Identificationwrap .tit .el-button>span{
+  display: flex;
+  align-items: center;
+}
+.dialog .el-dialog__body>span{
+  display: block;
+  margin-bottom: 15px;
+}
+.dialog .el-input{
+  width:100%!important;
+}
+.dialog .el-input-group{
+  width:100%!important;
+}
+.dialog .el-textarea{
+  width:100%!important;
+  margin-left: 15px;
+}
+.block .el-select .el-input__inner{
+  width: 100px!important;
+}
+.el-dialog__body{
+  padding:0 20px 20px!important;
+}
+.jgdiv{
+  padding: 20px 0;
+}
+.jgdiv>.el-input{
+  width: 28%!important;
+}
+.jgdiv>span>.el-select{
+  width: 28%!important;
+}
+.jgdiv>.el-button{
+  float: right;
+  padding: 10px 20px!important;
+}
+#selectheader .el-input__inner{
+  width: 280px;
+  border:none;
+  outline:none;
+}
+#selectheader .el-icon-search{
+  font-size:20px;
+  cursor: pointer;
+}

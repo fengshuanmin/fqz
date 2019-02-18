@@ -1,0 +1,120 @@
+.wrapper{
+  background:#EFF0F4;
+}
+.echartstop{
+  background: #fff;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index:1;
+}
+.echartstop img{
+  width:40px;
+  height: 40px;
+}
+.titleflex{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #6A708A;
+  font-size: 12px;
+}
+.opimg{
+  -webkit-filter: grayscale(1); /* Webkit */
+  filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* W3C */
+}
+.echarttitle{
+  text-align: center;
+  background: #fff;
+  padding: 10px;
+  border-bottom: 2px solid #F5F7FA;
+}
+.titlediv{
+  display: inline-block;
+  padding:0 20px 10px;
+}
+.titlesingle{
+  display: inline-block;
+  padding: 5px;
+}
+.titlesingle:nth-of-type(1){
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.titlesingle:nth-of-type(5){
+  margin-right: 30px;
+}
+.titlesingle:nth-of-type(9){
+  margin-right: 30px;
+}
+.titlesingle:nth-of-type(12){
+  margin-right: 30px;
+}
+.jt{
+  opacity: .5;
+}
+.jt:hover{
+  opacity:1;
+}
+.potit{
+  transition: all 0.2s ease-in-out 0s;
+}
+.titlebody{
+  overflow: auto;
+}
+#main{
+  background:#EFF0F4;
+}
+.echarttitle span{
+  display: inline-block;
+  text-align: left;
+}
+.dialog1 .el-dialog__body>span{
+  display: block;
+  margin-bottom: 15px;
+}
+.dialog1 .el-dialog__body>span>span:nth-of-type(1){
+  display: inline-block;
+  text-align: right;
+  width: 18%;
+}
+.dialog1 .el-dialog__body>span>span:nth-of-type(2){
+  margin-left: 10px;
+}
+.dialog1 .el-textarea{
+  width:50%!important;
+  margin-left: 15px;
+}
+.dialog1 .el-dialog{
+  width:430px!important;
+}
+.el-dialog__body{
+  padding: 0 20px 20px!important;
+}
+.echartdialog .el-dialog__title{
+  margin-left: 8px;
+}
+.echartdialog .el-textarea__inner{
+  width: 300px;
+}
+.potit{
+  position: absolute;
+  left: 0;
+  text-align:center;
+}
+.ajbz{
+  display: inline-block;
+  width:300px;
+  padding:0;
+  border-top:1px solid #dcdfe6;
+  border-bottom:1px solid #dcdfe6;
+}
+.ajbz li{
+  padding:0;
+  border-bottom: 1px solid #dcdfe6;
+}
+.ajbz li:nth-last-child(1){
+  border-bottom: none;
+}
